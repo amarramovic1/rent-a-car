@@ -1,0 +1,4 @@
+.navbar-brand img {
+    max-width: 100px; /* Prilagodite maksimalnu širinu slike prema svojim potrebama */
+    height: auto; /* Održava originalni odnos širine i visine slike */
+}

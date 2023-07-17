@@ -1,0 +1,521 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Navigacijska traka */
+.navbar {
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+/* Naslovna sekcija */
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+/* Dodatni stilovi */
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+/* Dodatni stilovi */
+.jumbotron .btn-primary {
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+
+.jumbotron .btn-primary:hover {
+    background-color: #343a40;
+}
+
+.jumbotron .display-4 {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.jumbotron .lead {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead .highlight {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.jumbotron .lead .highlight span {
+    font-style: italic;
+}
+
+.jumbotron .lead .highlight .highlighted-text {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* O nama sekcija */
+.about-section {
+    padding: 80px 0;
+    background-color: #fff;
+    text-align: center;
+}
+.about-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about-section p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Rezervacija sekcija*/
+.reservation-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+.reservation-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.reservation-section form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s;
+}
+.reservation-section form .form-group {
+    margin-bottom: 20px;
+}
+.reservation-section form label {
+    font-weight: bold;
+}
+.reservation-section form .form-control {
+    font-size: 16px;
+    padding: 12px;
+}
+.reservation-section form .btn-primary {
+    font-size: 18px;
+    padding: 12px 30px;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.reservation-section form .btn-primary:hover,
+.reservation-section form .btn-primary:focus {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Vozila sekcija */
+.vehicles-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+.vehicles-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.vehicle-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+.vehicle-card:hover {
+    transform: translateY(-5px);
+}
+.vehicle-card .card-img-top {
+    flex: 1;
+    max-height: 100%;
+    object-fit: cover;
+}
+.vehicle-card .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.vehicle-card .card-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.vehicle-card .btn-primary {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.vehicle-card .btn-primary:hover,
+.vehicle-card .btn-primary:focus {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+/* Accordion sekcija */
+.accordion-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+.accordion-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.accordion-item {
+    margin-bottom: 20px;
+}
+.accordion-item .accordion-button {
+    background-color: #99cff0;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.accordion-item .accordion-button:hover {
+    background-color: #f5f5f5;
+}
+.accordion-item .accordion-button.collapsed {
+    background-color: #f8f9fa;
+}
+.accordion-item .accordion-button.collapsed:hover {
+    background-color: #f5f5f5;
+}
+.accordion-item .accordion-body {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.accordion-item .accordion-body strong {
+    font-weight: bold;
+}
+.accordion-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+/* Kontakt form sekcija */
+.reservation-form {
+    background-color: #ccd4db;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s;
+}
+.reservation-form .form-group {
+    margin-bottom: 20px;
+}
+.reservation-form label {
+    font-weight: bold;
+}
+.reservation-form .form-control {
+    font-size: 16px;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+.reservation-form .btn-primary {
+    font-size: 18px;
+    padding: 12px 30px;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.reservation-form .btn-primary:hover,
+.reservation-form .btn-primary:focus {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+/* Načini plaćanja sekcija */
+.payment-methods-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+.payment-methods-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.payment-method {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+.payment-method:hover {
+    transform: translateY(-5px);
+}
+.payment-method-icon {
+    width: 200px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+.payment-method-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.payment-method-description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* Kontakt sekcija */
+.contact-form-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+.contact-form-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.contact-form-section .reservation-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.contact-form-section .reservation-form .form-group {
+    margin-bottom: 20px;
+}
+.contact-form-section .reservation-form label {
+    font-weight: bold;
+}
+.contact-form-section .reservation-form .form-control {
+    font-size: 16px;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+.contact-form-section .reservation-form .btn-primary {
+    font-size: 18px;
+    padding: 12px 30px;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.contact-form-section .reservation-form .btn-primary:hover,
+.contact-form-section .reservation-form .btn-primary:focus {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+/* Kontakt informacije sekcija */
+.contact-info-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+.contact-info-section .card {
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+}
+.contact-info-section .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.contact-info-section .card-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+    .contact-info-section .col-lg-4 {
+        margin-bottom: 30px;
+    }
+}
+.social-media-icons {
+    text-align: center;
+}
+.social-media-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+.social-media-icon:hover {
+    color: #007bff;
+}
+.contact-form-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+/*Za detalje*/
+.details-container {
+    margin-top: 50px;
+}
+.car-image {
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+}
+.car-info {
+    margin-top: 80px;
+}
+.car-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.car-info p {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: black;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    display: none;
+}
+.payment-method-icon{
+    width: 200px;
+    height: 120px;
+}
+.car-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.car-item {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.car-item .car-image {
+    flex: 1;
+    height: 200px;
+    object-fit: cover;
+}
+.car-item .car-details {
+    padding: 10px;
+}
+@media (max-width: 991px) {
+    .car-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 767px) {
+    .car-container {
+        grid-template-columns: 1fr;
+    }
+}
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10rem;
+    margin-bottom: 7rem;
+    animation: fadeInDown 1s ease-in-out;
+}
+.description {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 7rem;
+    animation: fadeInUp 1s ease-in-out;
+}
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
